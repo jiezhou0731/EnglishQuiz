@@ -17,6 +17,7 @@ public class Tip : MonoBehaviour
 			Advertisement.Show (zoneId, options);
 			DisableAllButtons.DisableAll ();
 		} else {
+			//MessageBubbleManager.AddTextMessage("Tip only shows in mobile version. \nPlease download the app using your phone.",0.5f,3f);
 			MessageBubbleManager.AddTextMessage("Ads is not ready, please check connection.",0.5f,3f);
 		}
 	}

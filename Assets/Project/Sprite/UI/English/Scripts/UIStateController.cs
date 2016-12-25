@@ -19,7 +19,6 @@ public class UIStateController : MonoBehaviour {
 
 	static public void ShowState(string stateName){
 		SoundManager.Play ("ButtonClick");
-
 		if (stateName == "QuestionPanel") {
 			instance.transform.FindChild ("QuestionPanel").GetComponent<QuestionPanel> ().TriggerEffect ();
 		} else if (stateName == "Category") {
@@ -27,6 +26,7 @@ public class UIStateController : MonoBehaviour {
 		} else if (stateName == "LandingPage") {
 			instance.transform.FindChild ("LandingPage").GetComponent<LandingPageController> ().TriggerEffect ();
 		} 
+
 
 		foreach(KeyValuePair<string, ShowHide> state in UIStateController.instance.states)
 		{

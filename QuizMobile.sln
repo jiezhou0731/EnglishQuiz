@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{E749F3ED-85AE-91F3-A19E-5777C7D4CC68}") = "QuizMobile", "Assembly-CSharp-firstpass.csproj", "{129D50AC-86EC-A8A2-7540-D14DAD277DB3}"
+EndProject
+Project("{E749F3ED-85AE-91F3-A19E-5777C7D4CC68}") = "QuizMobile", "Assembly-CSharp.csproj", "{AFD85622-E2B4-061D-3954-247F4B9FC25D}"
+EndProject
+Project("{E749F3ED-85AE-91F3-A19E-5777C7D4CC68}") = "QuizMobile", "Assembly-CSharp-Editor.csproj", "{9542290A-1884-CB3F-8BEF-10BA65C26B6F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{129D50AC-86EC-A8A2-7540-D14DAD277DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129D50AC-86EC-A8A2-7540-D14DAD277DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129D50AC-86EC-A8A2-7540-D14DAD277DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129D50AC-86EC-A8A2-7540-D14DAD277DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD85622-E2B4-061D-3954-247F4B9FC25D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD85622-E2B4-061D-3954-247F4B9FC25D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD85622-E2B4-061D-3954-247F4B9FC25D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD85622-E2B4-061D-3954-247F4B9FC25D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9542290A-1884-CB3F-8BEF-10BA65C26B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9542290A-1884-CB3F-8BEF-10BA65C26B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9542290A-1884-CB3F-8BEF-10BA65C26B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9542290A-1884-CB3F-8BEF-10BA65C26B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
